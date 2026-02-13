@@ -1,0 +1,15 @@
+{
+  "merged_at": "2026-02-03T10:46:03.549754",
+  "source_files": {
+    "qa": "data/qa_dataset.csv",
+    "summary": "data/summary_dataset.csv",
+    "news": "data/news_dataset.csv"
+  },
+  "samples_per_task": {
+    "qa": 150,
+    "summary": 150,
+    "news": 150
+  },
+  "total_samples": 450,
+  "total_boundaries": 434
+}

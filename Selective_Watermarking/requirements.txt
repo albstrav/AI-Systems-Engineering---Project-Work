@@ -1,0 +1,25 @@
+# DIPENDENZE PROGETTO SELECTIVE WATERMARKING
+# Installazione: pip install -r requirements.txt
+
+# --- Core ML ---
+torch>=2.0.0                  # PyTorch per deep learning
+transformers>=4.30.0          # HuggingFace per GPT-2
+
+# --- NLP ---
+nltk>=3.8.0                   # Natural Language Toolkit (WordNet per sinonimi)
+
+# --- Data & Visualization ---
+pandas>=2.0.0                 # Manipolazione dati
+numpy>=1.24.0                 # Calcolo numerico
+matplotlib>=3.7.0             # Grafici
+seaborn>=0.12.0               # Grafici statistici
+
+# --- Demo ---
+gradio>=4.0.0                 # Interfaccia web interattiva
+
+# --- Testing ---
+pytest>=7.0.0                 # Framework testing
+pytest-cov>=4.0.0             # Coverage report
+
+# --- Utilities ---
+tqdm>=4.65.0                  # Progress bar
